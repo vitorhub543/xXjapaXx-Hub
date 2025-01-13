@@ -3,8 +3,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "xXjapaXx Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
-   LoadingTitle = "xXjapaXx Hub",
-   LoadingSubtitle = "No Scripts Are Mine",
+   LoadingTitle = "xXjapaXx Hub folder",
+   LoadingSubtitle = "scripts japa hub | soon/not/working | workig/works",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -24,13 +24,13 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = true, -- Set this to true to use our key system
    KeySettings = {
-      Title = "xXjapaXx Hub | Key",
+      Title = "xXjapaXx Hub folder | Key",
       Subtitle = "Key System",
       Note = "Join Discord for Key |https://discord.gg/Tf6cup45", -- Use this to tell the user how to get a key
       FileName = "xXjapaXxHubKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://pastebin.com/raw/jLngggsV"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"https://linkvertise.com/1279015/japahub-key-sytem?o=sharing"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -237,7 +237,7 @@ end)
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Anti Afk",
+   Name = "japa hub folder Anti Afk working",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
    end,
@@ -247,83 +247,82 @@ local GameTab = Window:CreateTab("Game Exploits", 4483362458) -- Title, Image
 local GameSection = GameTab:CreateSection("⛩️Anime Games⛩️")
 
 local Button = GameTab:CreateButton({
-   Name = "Jujutsu Infinite",
+   Name = "japa hub kaitun soon",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Script-Games/refs/heads/main/Jujutsu%20Infinite.lua"))()
+loadstring(game:HttpGet(""))()
 end,
 })
 local Button = GameTab:CreateButton({
-   Name = "Kings Legacy",
+   Name = "japa hub Kings Legacy soon",
    Callback = function()
 --[[
     WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
 getgenv().RaidUI = false -- For Hidden Raid Mode true = show and false = hidden
 getgenv().CustomDistance = 8 -- For Bug Can't Swipe Distance
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChopLoris/ArcHub/main/main.lua"))()
+loadstring(game:HttpGet(""))()
    end,
 })
 
 local Button = GameTab:CreateButton({
-   Name = "Bloxfruits | Mobile Only",
+   Name = "japa hub | alto fruit working",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
    end,
 })
 
 local Button = GameTab:CreateButton({
-   Name = "Grand Piece Online",
+   Name = "japa hub alto chest working",
    Callback = function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3259542ebb994ec69311a5dfdc23daa5.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vitorhub543/xXjapaXx-Hub/refs/heads/main/XxjapaXx%20hub%20chest%20farm"))()
    end,
 })
-
 local Section = GameTab:CreateSection("🔫Shooting Games🔫")
 
 local Button = GameTab:CreateButton({
-   Name = "Rivals Aimbot/Esp",
+   Name = "japa hub Aimbot/Esp son",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
    end,
 })
 
 local Button = GameTab:CreateButton({
-   Name = "AirHub Universal Esp & Aimbot",
+   Name = "japa hub Universal Esp & Aimbot soon",
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub/main/AirHub.lua"))()
+   loadstring(game:HttpGet(""))()
    end,
 })
 
 local Button = GameTab:CreateButton({
-   Name = "Arsenal Aimbot/Esp & More",
+   Name = "japa hub  Aimbot/Esp & More soon",
    Callback = function()
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
 ]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sytcal/SkiddedTech/main/Arsenal"))()
+loadstring(game:HttpGet(""))()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Infinite Yield Admin",
+   Name = "japa hub Admin soon",
    Callback = function()
-   loadstring(game:HttpGet('https://raw.githubusercontent.com/DarkNetworks/Infinite-Yield/main/latest.lua'))()
+   loadstring(game:HttpGet(''))()
    end,
 })
 
 local Section = GameTab:CreateSection("Misc/Random games")
 
 local Button = GameTab:CreateButton({
-   Name = "Fisch",
+   Name = "japa hub Fisch soon",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+loadstring(game:HttpGet("", true))()
   end,
 })
 
 local Button = GameTab:CreateButton({
-   Name = "🏈Nfl Universe🏈",
+   Name = "🏈japa hub Universe soon🏈",
    Callback = function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/03624f832da93e45f8dc1d8234f7bfca.lua"))()
+loadstring(game:HttpGet(""))()
    end,
 })
 

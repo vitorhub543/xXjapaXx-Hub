@@ -1,14 +1,14 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local xXjapaXx = loadstring(game:HttpGet('https://sirius.menu/xXjapaXx'))()
 
-local Window = Rayfield:CreateWindow({
+local Window = xXjapaXx:CreateWindow({
    Name = "xXjapaXx Hub",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "xXjapaXx Hub folder",
    LoadingSubtitle = "scripts japa hub | soon/not/working | workig/works",
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Default", -- Check https://docs.sirius.menu/xXjapaXx/configuration/themes
 
-   DisableRayfieldPrompts = false,
-   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+   DisablexXjapaXxPrompts = false,
+   DisableBuildWarnings = false, -- Prevents xXjapaXx from warning when the script has a version mismatch with the interface
 
    ConfigurationSaving = {
       Enabled = true,
@@ -27,17 +27,17 @@ local Window = Rayfield:CreateWindow({
       Title = "xXjapaXx Hub folder | Key",
       Subtitle = "Key System",
       Note = "Join Discord for Key |https://discord.gg/Tf6cup45", -- Use this to tell the user how to get a key
-      FileName = "xXjapaXxHubKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      FileName = "xXjapaXxHubKey", -- It is recommended to use something unique as other scripts using xXjapaXx may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"https://linkvertise.com/1279015/japahub-key-sytem?o=sharing"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like xXjapaXx to get the key from
+      Key = {"japahubthebestt"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
 local MainTab = Window:CreateTab("Main Scripts", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Universal")
 
-Rayfield:Notify({
+xXjapaXx:Notify({
    Title = "Succesful Execution",
    Content = "https://discord.gg/Tf6cup45",
    Duration = 6.5,
@@ -334,7 +334,7 @@ local Section = MiscTab:CreateSection("Misc")
 local Button = MiscTab:CreateButton({
    Name = "Discord",
    Callback = function()
-Rayfield:Notify({
+xXjapaXx:Notify({
    Title = "https://discord.gg/Tf6cup45",
    Content = "https://discord.gg/Tf6cup45",
    Duration = 6.5,
@@ -346,6 +346,6 @@ Rayfield:Notify({
 local Button = MiscTab:CreateButton({
    Name = "Destroy Interface",
    Callback = function()
-Rayfield:Destroy()
+xXjapaXx:Destroy()
    end,
 })
